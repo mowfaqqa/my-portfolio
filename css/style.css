@@ -228,7 +228,7 @@ footer {
   color: rgb(166, 234, 245);
   box-shadow: -5px 15px 10px rgba(0, 0, 0, 0.5);
 }
-.description {
+.description, .icon-links {
   font-size: 10px;
   display: none;
 }
@@ -243,6 +243,13 @@ footer {
   display: flex;
   padding: 7px;  
 }
+.icon-links a {
+  display:none;
+  margin: 10px;
+  text-align: center;
+  color:2px solid rgb(166, 234, 245);
+}
+
 
 .icon-links a:hover {
   box-shadow: -10px 15px 10px rgb(89, 203, 211);
